@@ -2,11 +2,11 @@ import React from "react";
 
 const Button = ({ onsubmit, classname, value, content,onclick }) => {
   return (
-    <React.Fragment>
+    <div>
       <button className={classname} onSubmit={onsubmit} onClick={onclick} value={value}>
         {content}
       </button>
-    </React.Fragment>
+    </div>
   );
 };
 export default Button;
